@@ -41,3 +41,12 @@
 1. git init(第一次需要)
 2. git add .
 3. git commit -m '注释'
+
+## 查看日志
+- git log 查看完整日志
+- git reflog 查看简单日志
+
+# 版本回退
+- git reset --hard HEAD^ 回退到上一个版本
+- git rest --hard 版本
+- 注意先把当前的代码提交
