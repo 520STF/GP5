@@ -50,3 +50,20 @@
 - git reset --hard HEAD^ 回退到上一个版本
 - git rest --hard 版本
 - 注意先把当前的代码提交
+
+## 修改变动
+- gif diff 文件名
+- 会列出改文件前后的差异
+
+## 创建远程文件仓库
+- 进入 github官网
+- 创建一个新的远程从仓库
+
+## 将本地仓库与远程仓库关联
+- git remote add origin 你的远程地址
+- git remote -v 查看本地仓库关联的远程地址
+
+## 将本地仓库提交到远程仓库关联
+- git push -u origin master 第一次 提交到远程
+- git push 将本地仓库提交到远程仓库
+- -u origin master 设置默认的提交地址
