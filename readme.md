@@ -67,3 +67,7 @@
 - git push -u origin master 第一次 提交到远程
 - git push 将本地仓库提交到远程仓库
 - -u origin master 设置默认的提交地址
+
+## 修改关联的远程仓库地址
+- git remote rm origin
+- git remote add origin ssh地址
