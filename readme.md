@@ -72,4 +72,6 @@
 - git remote rm origin
 - git remote add origin ssh地址
 
-## 你好呀
+## 更新代码
+- 确保自己的工作区的代码先提交到本地仓库
+- 然后在从远程到本地
