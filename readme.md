@@ -90,5 +90,10 @@
 - git branch -d 分支名 删除某分支
 - git push origin 分支名
 
+## fetch和pull的区别
+1. 他们都用于从远程更新到本地
+2. fetch不会自动合并到当前分支(不会merge)
+3. pull会自动合并到当前分支(会merge)
+
 ## test分支
 - 添加内容。。。。
